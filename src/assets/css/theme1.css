@@ -1,0 +1,232 @@
+:root {
+    --mainPrimaryColor: #ffffff;
+    --mainSecondaryColor: rgb(255, 5, 5);
+    --mainTertiaryColor: #111111;
+    --mainTextColor: #444444;
+    --mainSecondaryLightColor: rgb(255, 77, 77);
+    --mainFontFamily: "Poppins", sans-serif;
+}
+
+::selection {
+    color: #fff;
+    background: var(--mainSecondaryColor);
+}
+
+a,
+.btn-link {
+    color: var(--mainSecondaryColor);
+}
+
+.mail-star.active,
+.page-title {
+    color: var(--mainSecondaryColor) !important
+}
+
+.text-success {
+    color: #46a049!important
+}
+
+.loader {
+    color: var(--mainSecondaryColor)
+}
+
+.nav-tabs .nav-link.active {
+    border-color: var(--mainSecondaryColor);
+    color: var(--mainSecondaryColor);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(100, 53, 201, 0.25)
+}
+
+.card,
+.dropify-wrapper,
+.btn-primary {
+    border: 0
+}
+
+.bg-primary,
+.bg-info,
+.bg-warning,
+.btn-success {
+    border: transparent
+}
+
+.btn-danger {
+    background-color: var(--mainSecondaryColor) !important;
+    color: #fff !important;
+}
+
+.btn-outline-danger {
+    color: red !important;
+}
+
+.btn-outline-danger:hover {
+    color: white !important;
+}
+
+.btn-danger:hover {
+    background-color: rgb(143, 35, 35) !important;
+    color: #fff !important;
+}
+
+.bg-success,
+.bg-danger,
+.badge-success,
+.progress-bar,
+.btn-danger,
+.btn-warning {
+    border: transparent
+}
+
+.btn-danger {
+    background-color: var(--mainSecondaryColor);
+}
+
+.btn-outline-danger {
+    color: var(--mainSecondaryColor);
+    border-color: var(--mainSecondaryColor)
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--mainSecondaryColor);
+    border-color: var(--mainSecondaryColor)
+}
+
+.custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:disabled:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+    border-color: var(--mainSecondaryColor);
+    background-color: var(--mainSecondaryColor)
+}
+
+.selectgroup-input:checked+.selectgroup-button {
+    border-color: var(--mainSecondaryColor);
+    color: var(--mainSecondaryColor);
+    background: rgba(100, 53, 201, 0.2)
+}
+
+.imagecheck-figure:before {
+    color: var(--mainSecondaryColor) !important
+}
+
+.wizard>.steps .current a,
+.wizard>.steps .current a:hover,
+.wizard>.steps .current a:active,
+.wizard>.actions a,
+.wizard>.actions a:hover {
+    background: var(--mainSecondaryColor);
+}
+
+.wizard>.steps .done a,
+.wizard>.steps .done a:hover {
+    background: var(--mainSecondaryColor);
+    color: #fff;
+}
+
+#header_top .brand-logo {
+    background: var(--mainSecondaryColor)
+}
+
+.header {
+    background: var(--mainSecondaryColor)
+}
+
+.header .nav-tabs .nav-link {
+    color: #fff
+}
+
+.header .nav-tabs .nav-link.active {
+    border-color: #fff
+}
+
+.header .dropdown-menu .dropdown-item:hover,
+.header .dropdown-menu .dropdown-item.active {
+    color: var(--mainSecondaryColor)
+}
+
+.card .card-options a.btn {
+    color: #fff
+}
+
+.custom-switch-input:checked~.custom-switch-indicator {
+    background: var(--mainSecondaryColor)
+}
+
+#left-sidebar .sidebar-nav {
+    margin-right: 0
+}
+
+.metismenu a {
+    border-radius: 3px;
+    padding: 10px
+}
+
+.metismenu a:hover {
+    background: rgba(201, 70, 53, 0.3);
+    color: #000;
+}
+
+.metismenu .active>a {
+    color: #fff;
+    background: var(--mainSecondaryColor);
+    border: 0
+}
+
+.metismenu .active ul .active a {
+    color: var(--mainSecondaryColor);
+    background: transparent
+}
+
+.metismenu.grid {
+    padding-right: 0
+}
+
+.metismenu.grid>li.active>a,
+.metismenu.grid>li>a:hover {
+    background: rgba(100, 53, 201, 0.1);
+    color: var(--mainSecondaryColor)
+}
+
+.iconcolor #header_top .nav-link {
+    color: #8b84ed !important
+}
+
+.gradient .fa {
+    background: -webkit-linear-gradient(45deg, var(--mainSecondaryColor), var(--mainSecondaryColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.gradient .custom-switch-input:checked~.custom-switch-indicator {
+    background: linear-gradient(45deg, var(--mainSecondaryColor), var(--mainSecondaryColor)) !important
+}
+
+.gradient .metismenu.grid>li.active>a,
+.gradient .metismenu.grid>li>a:hover {
+    background: linear-gradient(45deg, var(--mainSecondaryColor), #8b84ed) !important;
+    color: #fff;
+    border: 0
+}
+
+.gradient .btn-primary {
+    background: linear-gradient(45deg, var(--mainSecondaryColor), var(--mainSecondaryColor)) !important;
+    border: 0
+}
+
+.gradient .btn-dark {
+    background: linear-gradient(45deg, #808488, #333537) !important
+}
+
+.gradient .bg-success,
+.gradient .bg-danger,
+.gradient .badge-success,
+.gradient .progress-bar,
+.gradient .btn-danger {
+    background: linear-gradient(45deg, var(--mainSecondaryColor), var(--mainSecondaryColor)) !important
+}
+
+.sidebar_dark .metismenu .active>a {
+    color: var(--mainSecondaryColor)
+}
